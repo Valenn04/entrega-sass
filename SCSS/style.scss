@@ -1,0 +1,22 @@
+@import 'Base/listas';
+@import 'Components/header';
+@import 'Components/main';
+@import 'Components/footer';
+@import 'Components/media';
+@import 'Base/mixin';
+@import 'Components/estilosgenerales';
+@import '../SCSS/Components/empresa';
+
+
+body{
+    background-color: nth($colores, 2);   
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+

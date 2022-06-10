@@ -1,0 +1,31 @@
+/* Acordeon de empresa */
+.acordeon-padre {
+    box-sizing: border-box;
+}
+
+.acordeon input {
+    @include display(none);
+}
+
+.acordeon-titulo{
+    @include display(block);
+    padding: 15px;
+    color: nth($colores, 1);
+    font-size: 30px;
+    cursor: pointer;
+    &:hover {
+    background: nth($colores, 6);
+    }
+}
+
+.acordeon-contenido {
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    background:none;
+}
+
+.acordeon input:checked ~ .acordeon-contenido{
+    height: auto;
+    margin: 15px 0px;
+}

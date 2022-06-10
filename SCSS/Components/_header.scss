@@ -1,0 +1,27 @@
+
+@import '../Base/mixin';
+
+
+.container-a {
+    @include display(grid);
+    grid-template-columns: repeat(4, 1fr);
+    @include bordes(3px solid nth($colores, 4));
+    margin: 40px;
+}
+  
+/* Animacion menu */
+li {
+	transition: all 2s;
+	&:hover {
+		transform: scale(1.05);
+	}
+}
+
+/* Logo */
+.img-leon { 
+    width: 20%;
+    height: 15vh;
+    @include bordes(4px solid nth($colores, 1));
+    @include display(flex);
+    justify-content: flex-end;
+}

@@ -1,0 +1,8 @@
+@mixin bordes($valor) {
+    border: $valor;
+}
+
+@mixin display($display) {
+    display: $display;
+}
+
