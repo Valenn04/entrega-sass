@@ -1,11 +1,13 @@
 @import 'Base/listas';
 @import 'Components/header';
-@import 'Components/main';
+@import 'Components/banner';
 @import 'Components/footer';
 @import 'Components/media';
 @import 'Base/mixin';
 @import 'Components/estilosgenerales';
 @import '../SCSS/Components/empresa';
+@import '../SCSS/Components/categorias';
+
 
 
 body{

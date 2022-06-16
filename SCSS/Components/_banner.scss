@@ -5,7 +5,7 @@
     height: 70vh;
     margin-top: 0px;
     position: relative;
-    background-image: url(/imagenes/banner2.jpg);
+    background-image: url(/imagenes/banner2.webp);
     background-size: cover;
     background-position: center;
 }
@@ -24,7 +24,7 @@
 
 .button-banner {
     background: nth($colores, 3);
-    border: none;
+    border-radius: 10px;
     padding: 12px;
     color: nth($colores, 5);
     font-size: 20px;

@@ -1,3 +1,10 @@
+/* Menu container */
+.Container-m {
+  background-color: black;
+  margin-top: 50px;
+  padding: 1px;
+}
+
 .container-a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -27,7 +34,7 @@ li:hover {
   height: 70vh;
   margin-top: 0px;
   position: relative;
-  background-image: url(/imagenes/banner2.jpg);
+  background-image: url(/imagenes/banner2.webp);
   background-size: cover;
   background-position: center;
 }
@@ -46,7 +53,7 @@ li:hover {
 
 .button-banner {
   background: #9cc76b;
-  border: none;
+  border-radius: 10px;
   padding: 12px;
   color: #fff;
   font-size: 20px;
@@ -76,10 +83,14 @@ li:hover {
 
 /* Footer */
 .footer {
+  background-color: #fff;
   align-items: flex-end;
+  padding: 0px;
 }
 .footer a {
   color: black;
+  padding: 7px;
+  margin: 0px;
 }
 
 /* Media */
@@ -169,6 +180,15 @@ a:hover {
 .acordeon input:checked ~ .acordeon-contenido {
   height: auto;
   margin: 15px 0px;
+}
+
+/* Categorias */
+.categorias a {
+  font-size: 20px;
+  color: black;
+}
+.categorias a:hover {
+  color: orange;
 }
 
 body {

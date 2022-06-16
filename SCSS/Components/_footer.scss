@@ -1,8 +1,12 @@
 /* Footer */
 .footer {
-
+    background-color: nth($colores, 5 );
     align-items: flex-end;
-     a {
-    color: nth($colores, 4);
-     }
+    padding: 0px;
+
+    a {
+        color: nth($colores, 4);
+        padding: 7px;
+        margin: 0px;
+    }
 }
