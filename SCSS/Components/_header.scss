@@ -1,6 +1,14 @@
 
 @import '../Base/mixin';
 
+/* Logo */
+.img-leon { 
+    width: 15%;
+    height: 1%;
+    @include display(flex);
+    justify-content: flex-end;
+}
+
 /* Menu container */
 .Container-m {
     background-color: nth($colores, 4);
@@ -24,11 +32,3 @@ li {
 	}
 }
 
-/* Logo */
-.img-leon { 
-    width: 20%;
-    height: 15vh;
-    @include bordes(4px solid nth($colores, 1));
-    @include display(flex);
-    justify-content: flex-end;
-}
